@@ -1,6 +1,6 @@
 $TTL 3600
 @	IN SOA	ns1 named (
-				2017042100 ; serial
+				2017042102 ; serial
 				300        ; refresh (5m)
 				300        ; retry (5m)
 				8467200    ; expire (14w)
@@ -18,7 +18,7 @@ mail		CNAME	ghs.googlehosted.com.
 @		MX	10 ALT2.ASPMX.L.GOOGLE.COM.
 @		MX	10 ALT4.ASPMX.L.GOOGLE.COM.
 
-@		CAA	128 issue "letsencrypt.org"
+layeraleph.com.	CAA	128 issue "letsencrypt.org"
 
 @		TXT	"google-site-verification=rQUB_YcOTXiA8ofeg2SPLztMtfLbiOPUHd_NSdX_c9g"
 google._domainkey	TXT	(
